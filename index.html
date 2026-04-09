@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luminary — Design Studio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="#" class="logo">Luminary<span class="logo__dot">.</span></a>
+
+      <!-- Hamburger (mobile) -->
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="main-nav">
+        <ul class="nav__list">
+          <li><a href="#about"   class="nav__link">About</a></li>
+          <li><a href="#work"    class="nav__link">Work</a></li>
+          <li><a href="#process" class="nav__link">Process</a></li>
+          <li><a href="#contact" class="nav__link nav__link--cta">Get in Touch</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="about">
+    <div class="hero__bg-text" aria-hidden="true">DESIGN</div>
+
+    <div class="hero__content">
+      <span class="hero__eyebrow">Award-winning creative studio</span>
+      <h1 class="hero__title">
+        We craft<br />
+        <em>ideas</em> into<br />
+        experiences.
+      </h1>
+      <p class="hero__desc">
+        Luminary partners with forward-thinking brands to build digital
+        products that are bold, intentional, and beautifully made.
+      </p>
+      <div class="hero__actions">
+        <a href="#work" class="btn btn--primary">View Our Work</a>
+        <a href="#process" class="btn btn--ghost">How We Work</a>
+      </div>
+    </div>
+
+    <div class="hero__media">
+      <div class="hero__card hero__card--1">
+        <span class="card__label">Brand Identity</span>
+        <div class="card__visual card__visual--1"></div>
+      </div>
+      <div class="hero__card hero__card--2">
+        <span class="card__label">Web Design</span>
+        <div class="card__visual card__visual--2"></div>
+      </div>
+      <div class="hero__card hero__card--3">
+        <span class="card__label">Motion</span>
+        <div class="card__visual card__visual--3"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MARQUEE STRIP ===== -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Brand Strategy</span><span class="sep">✦</span>
+      <span>Visual Identity</span><span class="sep">✦</span>
+      <span>UI / UX Design</span><span class="sep">✦</span>
+      <span>Motion Graphics</span><span class="sep">✦</span>
+      <span>Web Development</span><span class="sep">✦</span>
+      <span>Brand Strategy</span><span class="sep">✦</span>
+      <span>Visual Identity</span><span class="sep">✦</span>
+      <span>UI / UX Design</span><span class="sep">✦</span>
+      <span>Motion Graphics</span><span class="sep">✦</span>
+      <span>Web Development</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ===== WORK SECTION ===== -->
+  <section class="work section" id="work">
+    <div class="section__header">
+      <span class="section__tag">Selected Work</span>
+      <h2 class="section__title">Recent Projects</h2>
+    </div>
+
+    <div class="work__grid">
+      <article class="project project--large">
+        <div class="project__thumb project__thumb--a"></div>
+        <div class="project__info">
+          <h3 class="project__name">Aura Skincare</h3>
+          <p class="project__cat">Brand Identity · Packaging</p>
+        </div>
+      </article>
+      <article class="project">
+        <div class="project__thumb project__thumb--b"></div>
+        <div class="project__info">
+          <h3 class="project__name">Volta EV</h3>
+          <p class="project__cat">Web Design · Motion</p>
+        </div>
+      </article>
+      <article class="project">
+        <div class="project__thumb project__thumb--c"></div>
+        <div class="project__info">
+          <h3 class="project__name">Crest Finance</h3>
+          <p class="project__cat">UI/UX · Development</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS SECTION ===== -->
+  <section class="process section" id="process">
+    <div class="section__header">
+      <span class="section__tag">How We Work</span>
+      <h2 class="section__title">Our Process</h2>
+    </div>
+    <ol class="process__list">
+      <li class="process__step">
+        <span class="step__num">01</span>
+        <div class="step__body">
+          <h3 class="step__title">Discover</h3>
+          <p class="step__desc">We dive deep into your brand, audience, and goals to build a solid creative foundation.</p>
+        </div>
+      </li>
+      <li class="process__step">
+        <span class="step__num">02</span>
+        <div class="step__body">
+          <h3 class="step__title">Define</h3>
+          <p class="step__desc">Strategy meets aesthetics — we map out a direction that balances beauty with purpose.</p>
+        </div>
+      </li>
+      <li class="process__step">
+        <span class="step__num">03</span>
+        <div class="step__body">
+          <h3 class="step__title">Design</h3>
+          <p class="step__desc">Pixels, type, motion — every detail crafted with precision and intention.</p>
+        </div>
+      </li>
+      <li class="process__step">
+        <span class="step__num">04</span>
+        <div class="step__body">
+          <h3 class="step__title">Deliver</h3>
+          <p class="step__desc">Production-ready assets, clean code, and ongoing support. Shipped on time, every time.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="contact">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="logo">Luminary<span class="logo__dot">.</span></a>
+        <p class="footer__tagline">Crafting the future, one pixel at a time.</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <h4 class="footer__nav-title">Studio</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer__nav" aria-label="Social links">
+        <h4 class="footer__nav-title">Follow</h4>
+        <ul>
+          <li><a href="#" target="_blank" rel="noopener">Twitter ↗</a></li>
+          <li><a href="#" target="_blank" rel="noopener">Instagram ↗</a></li>
+          <li><a href="#" target="_blank" rel="noopener">Dribbble ↗</a></li>
+          <li><a href="#" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__contact">
+        <h4 class="footer__nav-title">Say Hello</h4>
+        <a href="mailto:hello@luminary.studio" class="footer__email">hello@luminary.studio</a>
+        <a href="#" class="btn btn--primary footer__btn">Start a Project</a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; 2026 Luminary Studio. All rights reserved.</p>
+      <p>Made with ♥ &amp; strong coffee.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const nav    = document.getElementById('main-nav');
+
+    toggle.addEventListener('click', () => {
+      const open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      nav.classList.toggle('nav--open');
+      toggle.classList.toggle('nav-toggle--open');
+    });
+
+    // Shrink header on scroll
+    window.addEventListener('scroll', () => {
+      document.querySelector('.header').classList.toggle('header--scrolled', window.scrollY > 60);
+    });
+
+    // Fade-in on scroll (Intersection Observer)
+    const fadeEls = document.querySelectorAll('.project, .process__step, .hero__card');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+    }, { threshold: 0.15 });
+    fadeEls.forEach(el => io.observe(el));
+  </script>
+</body>
+</html>
