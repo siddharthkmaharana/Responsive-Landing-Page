@@ -116,4 +116,4 @@ The website is fully responsive using:
 
 ## 🔗 Repository Link
 
-(Add your GitHub repo link here after uploading)
+https://github.com/siddharthkmaharana/Responsive-Landing-Page
