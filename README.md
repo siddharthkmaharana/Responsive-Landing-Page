@@ -1,4 +1,4 @@
-# 🌐 Responsive Landing Page (Luminary Design Studio)
+# 🌐 Responsive Landing Page 
 
 ## 📌 Task 1: Create a Simple Responsive Landing Page Using HTML & CSS
 
